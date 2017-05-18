@@ -1,10 +1,10 @@
 ---
 applications:
-- name: EP2017
+- name: EP2017V1
   memory: 512M
   instances: 1
-  host: EP2017
+  host: EP2017V1
   path: C:\Users\a622880\Desktop\CF_Training Material\Eclipse\EmployeePortal.war  
   domain: apps.eu01.cf.canopy-cloud.com
   services:
-  - ep
+  - p-mysql
